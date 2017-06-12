@@ -48,10 +48,19 @@ public class MainActivity extends TabActivity {
         Intent intentFacturas = new Intent().setClass(this, FacturasActivity.class);
         TabHost.TabSpec tabFacturas = tabHost.newTabSpec("FACTURAS").setContent(intentFacturas).setIndicator("FACTURAS");
 
+        //Recargas Tab
+        Intent intentRecargas = new Intent().setClass(this, RecargasActivity.class);
+        TabHost.TabSpec tabRecargas = tabHost.newTabSpec("RECARGAS").setContent(intentRecargas).setIndicator("RECARGAS");
 
+        boolean isPrepago = true;
         // Add all tabs
         tabHost.addTab(tabConsumos);
-        tabHost.addTab(tabFacturas);
+        if(isPrepago){
+            tabHost.addTab(tabRecargas);
+        }else{
+            tabHost.addTab(tabFacturas);
+        }
+
 
 
         //set Consumos tab as default

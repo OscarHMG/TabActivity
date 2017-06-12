@@ -10,6 +10,13 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
+
+        </activity>
+
+        <activity android:name=".ConsumosActivity" />
+        <activity android:name=".FacturasActivity" />
+        <activity android:name=".RecargasActivity" />
+        <activity android:name=".IncidenciasActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,8 +24,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ConsumosActivity" />
-        <activity android:name=".FacturasActivity" />
     </application>
 
 </manifest>
