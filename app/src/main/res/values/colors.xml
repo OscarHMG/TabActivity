@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="transperent_color">#00000000</drawable>
+
+    <!-- PALETA DE COLORES V3 -->
+    <color name="Pantone_2995">#00a9e0</color>
+    <color name="Pantone_2287">#5BC500</color>
+    <color name="Pantone_258">#954B97</color>
+    <color name="Pantone_710">#E9426D</color>
+    <color name="Pantone_7416">#EC6839</color>
+    <color name="Pantone_7564">#F59C00</color>
+
+    <color name="PantoneCoolGray_1">#E9EAE8</color>
+    <color name="PantoneCoolGray_3">#D3D4D3</color>
+    <color name="PantoneCoolGray_5">#b6b7b7</color>
+    <color name="PantoneCoolGray_8">#86888c</color>
+    <color name="PantoneCoolGray_10">#50535A</color>
+
+
+    <!-- Escala de Azul 1 -->
+    <color name="Azul1">#005c84</color>
+    <color name="Azul1_70">#4F8DA8</color>
+    <color name="Azul1_50">#81AEC1</color>
+    <color name="Azul1_30">#b3ced9</color>
+    <color name="Azul1_10">#E5EEF3</color>
+
+    <!-- Escala de Azul 2 -->
+    <color name="Azul2">#00769f</color>
+    <color name="Azul2_70">#509FBB</color>
+    <color name="Azul2_50">#82BACF</color>
+    <color name="Azul2_30">#B3D6E1</color>
+    <color name="Azul2_10">#E6F1F5</color>
+
+    <!-- Escala de Azul 3 -->
+    <color name="Azul3">#119CBF</color>
+    <color name="Azul3_70">#5CBAD1</color>
+    <color name="Azul3_50">#8ACCDE</color>
+    <color name="Azul3_30">#B8E1EC</color>
+    <color name="Azul3_10">#E7F5F8</color>
+
+    <!-- Escala de Azul 4 -->
+    <color name="Azul4">#00C6D7</color>
+    <color name="Azul4_70">#55D7E3</color>
+    <color name="Azul4_50">#83E1E9</color>
+    <color name="Azul4_30">#B5EEF4</color>
+    <color name="Azul4_10">#E6F8FC</color>
+
+    <!-- Escala de Verde 1 -->
+    <color name="Verde1">#228836</color>
+    <color name="Verde1_70">#66AA75</color>
+    <color name="Verde1_50">#91C29B</color>
+    <color name="Verde1_30">#BEDAC4</color>
+    <color name="Verde1_10">#e8f3eb</color>
+
+    <!-- Escala de Verde 2 -->
+    <color name="Verde2">#7ab800</color>
+    <color name="Verde2_70">#A3CA55</color>
+    <color name="Verde2_50">#BDDA83</color>
+    <color name="Verde2_30">#D7E9B4</color>
+    <color name="Verde2_10">#F1F8E7</color>
+
+    <!-- Escala de Verde 3 -->
+    <color name="Verde3">#ABCE37</color>
+    <color name="Verde3_70">#C2DC7A</color>
+    <color name="Verde3_50">#D4E59F</color>
+    <color name="Verde3_30">#E4F0C4</color>
+    <color name="Verde3_10">#F6FAEC</color>
+
+    <!-- Escala de Purpura -->
+    <color name="Purpura">#9D32b5</color>
+    <color name="Purpura_70">#B972C8</color>
+    <color name="Purpura_50">#CE9AD9</color>
+    <color name="Purpura_30">#E0C2E9</color>
+    <color name="Purpura_10">#F6EAF8</color>
+
+    <!-- Escala de Amarillo -->
+    <color name="Amarillo">#edb613</color>
+    <color name="Amarillo_70">#F0CB62</color>
+    <color name="Amarillo_50">#F5D88E</color>
+    <color name="Amarillo_30">#F9E7BA</color>
+    <color name="Amarillo_10">#FEF8E9</color>
+
+    <!-- Links -->
+    <color name="Link_fondo_claro">#0086C3</color>
+    <color name="Link_fondo_obscuro">#5CD2ED</color>
+
+    <color name="Magenta">#eb008b</color>
+    <color name="Fondo1">#F1F3F2</color>
+    <color name="Fondo2">#edf2f5</color>
+    <color name="Fondo3">#dde8ea</color>
+    <color name="Fondo4">#d3e1e4</color>
+    <color name="TextoBlanco">#ffffff</color>
+    <color name="TextoAzul">#094971</color>
+    <color name="TextoNegro">#313131</color>
+    <color name="TextoGrisMedio">#515559</color>
+    <color name="TextoGrisClaro">#dfdfdf</color>
+    <color name="TextoEnlacesSobreClaro">#0086C3</color>
+    <color name="TextoEnlaceSobreOscuro">#5CD2ED</color>
+
+    <color name="radio_button_selected_color">@color/Pantone_258</color>
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+
+    <!-- Transparente -->
+    <color name="Transparente">#00FFFFFF</color>
+
+    <!-- Blanco -->
+    <color name="Blanco">#ffffff</color>
+
+
+    <array name="colores_club">
+
+        <item>@color/TextoBlanco</item>
+        <item>@color/TextoBlanco</item>
+        <!--   <item>@color/Verde2</item>
+         <item>@color/Azul3_70</item>
+        <item>@color/Verde2_70</item>
+        <item>@color/Azul4</item>
+        <item>@color/Verde1_70</item>
+        <item>@color/Azul2_50</item> -->
+    </array>
+    <color name="Twitter">#19BFE5</color>
+
+
+</resources>
